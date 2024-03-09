@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-import "./App.css";
 import { GridContext } from "../context/gridContext";
 import { transformRoboFace } from "../helpers/transformRoboFace";
 
