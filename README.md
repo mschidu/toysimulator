@@ -1,4 +1,4 @@
-## Get started
+## Getting started
 
 #### Make sure you have the latest git, Node.js and NPM installed on your machine
 
@@ -10,40 +10,28 @@ $ npm --version
 $ node --version
 ```
 
-#### Clone the repo from Bitbucket
+#### Clone the repo or download the zip file
 
 ```bash
-$ git clone https://github.com/kidjp85/react-toy-robot.git
+$ git clone https://github.com/mschidu/toysimulator.git
 ```
 
-#### Install npm package
+#### go to directory
 
 ```bash
-$ cd react-toy-robot && yarn
+$ cd toysimulator-master
+```
+
+#### Install the dependencies
+
+```bash
+$ npm install
 ```
 
 #### Start local server
 
 ```bash
-$ yarn start
+$ npm run dev
 ```
 
-And open `http://localhost:3000` to view it in the browser.
-
-#### Build production
-
-```bash
-$ yarn build
-```
-
-#### Testing
-
-```bash
-$ yarn test
-```
-
-#### Linting (eslint + stylelint)
-
-```bash
-$ yarn linting
-```
+And open `http://localhost:5173` to view it in the browser.
